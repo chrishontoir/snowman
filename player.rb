@@ -7,4 +7,8 @@ class Player
     @player_lives = player_lives
   end
 
+  def remove_life
+    @player_lives -= 1
+  end
+
 end

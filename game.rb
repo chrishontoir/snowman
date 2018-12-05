@@ -21,6 +21,7 @@ class Game
       p "You've already guessed #{guess}."
       # get_input_from_player()
     else
+      p "You guessed #{guess}."
       @guessed_letters.push(guess)
     end
   end
